@@ -277,7 +277,7 @@ export default function Enquiry({
 
             {/* WhatsApp direct */}
             <a
-              href={`https://wa.me/${whatsappNumber.replace(/[^0-9]/g, '') || '919999000000'}?text=${whatsappText}`}
+              href={`https://wa.me/${whatsappNumber.replace(/[^0-9]/g, '') || '919344374733'}?text=${whatsappText}`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline-white"
@@ -362,7 +362,7 @@ export default function Enquiry({
                     </Field>
                     <Field id="phone" label="Phone / WhatsApp" required error={errors.phone}>
                       <input id="phone" type="tel" value={form.phone} onChange={e => update('phone', e.target.value)}
-                        placeholder="+91 9999 000000" className="form-input" required aria-required="true"
+                        placeholder="+91 93443 74733" className="form-input" required aria-required="true"
                         aria-invalid={errors.phone ? 'true' : 'false'}
                         aria-describedby={errors.phone ? 'phone-error' : undefined} />
                     </Field>

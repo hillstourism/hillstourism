@@ -107,7 +107,7 @@ export default function RootLayout({
         name: 'Hills Tourism',
         description: 'Enquiry-led curated mountain travel and hill station escapes.',
         url: siteUrl,
-        telephone: '+919999000000',
+        telephone: '+919344374733',
         email: 'hello@hillstourism.com',
         address: {
           '@type': 'PostalAddress',

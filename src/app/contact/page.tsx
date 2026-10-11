@@ -33,11 +33,11 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function ContactPage() {
   const settings = await getSiteSettings()
-  const contactPhone = settings?.contactPhone || '+91 99990 00000'
+  const contactPhone = settings?.contactPhone || '+91 93443 74733'
   const cleanPhone = contactPhone.replace(/[^0-9+]/g, '')
   const whatsappUrl = settings?.whatsappNumber
     ? `https://wa.me/${settings.whatsappNumber.replace(/[^0-9]/g, '')}?text=Hi!%20I'd%20like%20to%20plan%20a%20hill%20trip%20with%20Hillstourism.`
-    : "https://wa.me/919999000000?text=Hi!%20I'd%20like%20to%20plan%20a%20hill%20trip%20with%20Hillstourism."
+    : "https://wa.me/919344374733?text=Hi!%20I'd%20like%20to%20plan%20a%20hill%20trip%20with%20Hillstourism."
 
   return (
     <>

@@ -24,13 +24,13 @@ describe('Site Settings Repository & General Settings End-to-End', () => {
     const updated = await updateSiteSettings({
       instagram: 'https://instagram.com/hillstourism.official',
       facebook: 'https://facebook.com/hillstourism.official',
-      contactPhone: '+91 94877 75512',
+      contactPhone: '+91 93443 74733',
       contactEmail: 'contact@hillstourism.in',
     })
 
     expect(updated.instagram).toBe('https://instagram.com/hillstourism.official')
     expect(updated.facebook).toBe('https://facebook.com/hillstourism.official')
-    expect(updated.contactPhone).toBe('+91 94877 75512')
+    expect(updated.contactPhone).toBe('+91 93443 74733')
     expect(updated.contactEmail).toBe('contact@hillstourism.in')
     // Ensure existing fields like siteName were preserved
     expect(updated.siteName).toBe(initialSiteName)
@@ -39,7 +39,7 @@ describe('Site Settings Repository & General Settings End-to-End', () => {
     const readBack = await getSiteSettings()
     expect(readBack.instagram).toBe('https://instagram.com/hillstourism.official')
     expect(readBack.facebook).toBe('https://facebook.com/hillstourism.official')
-    expect(readBack.contactPhone).toBe('+91 94877 75512')
+    expect(readBack.contactPhone).toBe('+91 93443 74733')
   })
 
   it('safely handles empty or null values and preserves theme preference', async () => {

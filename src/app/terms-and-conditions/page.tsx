@@ -218,7 +218,7 @@ export default function TermsAndConditionsPage() {
               >
                 <p><strong>Hills Tourism Support & Operations</strong></p>
                 <p>Email: <a href="mailto:hello@hillstourism.com" style={{ color: 'var(--hill-blue-bright)' }}>hello@hillstourism.com</a></p>
-                <p>Phone / WhatsApp: +91 99990 00000</p>
+                <p>Phone / WhatsApp: +91 93443 74733</p>
                 <p>Operating Hours: 9:00 AM – 9:00 PM IST (7 Days a week)</p>
               </div>
             </div>

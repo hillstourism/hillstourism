@@ -4467,7 +4467,7 @@ function AdminDashboardContent() {
                             settings: { ...contentData.settings, contactPhone: e.target.value, phone: e.target.value },
                           })}
                           style={inputStyle}
-                          placeholder="+91 94877 75512"
+                          placeholder="+91 93443 74733"
                         />
                       </div>
                       <div>
@@ -4497,7 +4497,7 @@ function AdminDashboardContent() {
                             settings: { ...contentData.settings, whatsappNumber: e.target.value, whatsapp: e.target.value },
                           })}
                           style={inputStyle}
-                          placeholder="+91 94877 75512"
+                          placeholder="+91 93443 74733"
                         />
                       </div>
                       <div>

@@ -24,7 +24,7 @@ export default function Navbar({ whatsappUrl: customWhatsappUrl = '' } = {}) {
   const [scrolled, setScrolled] = useState(!isHomePage)
   const [menuOpen,    setMenuOpen]    = useState(false)
   const [menuMounted, setMenuMounted] = useState(false)
-  const whatsappUrl = customWhatsappUrl || "https://wa.me/919999000000?text=Hi!%20I'd%20like%20to%20plan%20a%20hill%20trip."
+  const whatsappUrl = customWhatsappUrl || "https://wa.me/919344374733?text=Hi!%20I'd%20like%20to%20plan%20a%20hill%20trip."
 
   /* Scroll listener — on homepage only toggles; on other pages always stays dark */
   useEffect(() => {

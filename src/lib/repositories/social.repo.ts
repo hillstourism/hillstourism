@@ -9,7 +9,7 @@ export const defaultSocialLinks: SocialLink[] = [
   {
     id: 'social-whatsapp',
     platform: 'whatsapp',
-    url: "https://wa.me/919999000000?text=Hi!%20I'd%20like%20to%20plan%20a%20hill%20trip.",
+    url: "https://wa.me/919344374733?text=Hi!%20I'd%20like%20to%20plan%20a%20hill%20trip.",
     active: true,
     order: 1,
     updatedAt: new Date().toISOString(),

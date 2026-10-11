@@ -103,7 +103,7 @@ export default function HillGuide() {
         setMessages(prev => [...prev, {
           id: Date.now() + 1,
           from: 'bot',
-          text: "I'm having trouble retrieving details right now. Please explore our curated packages above or reach out via WhatsApp at +91 99990 00000!",
+          text: "I'm having trouble retrieving details right now. Please explore our curated packages above or reach out via WhatsApp at +91 93443 74733!",
           chips: ['View packages', 'WhatsApp us'],
         }])
       }
@@ -113,7 +113,7 @@ export default function HillGuide() {
       setMessages(prev => [...prev, {
         id: Date.now() + 1,
         from: 'bot',
-        text: "You can reach our trip planning desk anytime on WhatsApp at +91 99990 00000 or fill out the enquiry form!",
+        text: "You can reach our trip planning desk anytime on WhatsApp at +91 93443 74733 or fill out the enquiry form!",
         chips: ['Fill enquiry form', 'WhatsApp us'],
       }])
     }

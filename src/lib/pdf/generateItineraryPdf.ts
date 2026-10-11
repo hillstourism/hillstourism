@@ -926,7 +926,7 @@ export async function generateItineraryPDF(data: ItineraryPdfData, options: { do
   doc.setFont('helvetica', 'bold')
   doc.setFontSize(11)
   doc.setTextColor(30, 41, 59)
-  doc.text('+91 73589 86704  (24/7 Traveler Support)', margin + 45, y + 23)
+  doc.text('+91 93443 74733  (24/7 Traveler Support)', margin + 45, y + 23)
 
   // Email
   doc.setFont('helvetica', 'bold')
@@ -1052,7 +1052,7 @@ export async function generateItineraryPDF(data: ItineraryPdfData, options: { do
   doc.setFont('helvetica', 'normal')
   doc.setFontSize(8.5)
   doc.setTextColor(100, 116, 139)
-  doc.text('Instagram: @hillstourism   •   Facebook: facebook.com/hillstourism   •   WhatsApp: +91 73589 86704', pageWidth / 2, y, { align: 'center' })
+  doc.text('Instagram: @hillstourism   •   Facebook: facebook.com/hillstourism   •   WhatsApp: +91 93443 74733', pageWidth / 2, y, { align: 'center' })
   y += 5
 
   doc.setFont('helvetica', 'bold')
